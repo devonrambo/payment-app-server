@@ -17,7 +17,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@PreAuthorize("isAuthenticated()")
 public class ApplicationController {
 
     @Autowired
