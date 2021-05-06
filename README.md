@@ -2,7 +2,7 @@
 
 
 ### Description
-This is the server-side code for a venmo-like payment application. A user can send payments, request other users to send them money, view their balance, past payments, pending payments, and more. The front-end is CLI based and in another repository.
+This is the server-side code for a Venmo-like payment application. A user can send payments, request other users to send them money, view their balance, past payments, pending payments, and more. The front-end is CLI based and in another repository.
 
 ### Motivation
 This was a bootcamp project. After completing the requirements I wanted to host it on a cloud server rather than my machine, so I deployed it to Heroku.
