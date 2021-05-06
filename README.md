@@ -8,7 +8,7 @@ This is the server-side code for a venmo-like payment application. A user can se
 This was a bootcamp project. After completing the requirements I wanted to host it on a cloud server rather than my machine, so I deployed it to Heroku.
 
 ### Methods
-The postgres DB contains tables for users, accounts, transfers, and others. Model classes were made in Java for the respective objects. Spring Boot was used to build the Controller. 12 API endpoints were created and used JbdcDAOs to interact with the DB.
+The postgres DB contains tables for users, accounts, transfers, and others. Model classes were made in Java for the respective objects. Spring Boot was used to build the Controller and autowire components. 12 API endpoints were created taking in path variables and request bodys. These methods used JbdcDAOs to interact with the DB to adhere to the MVC pattern.
 <br />
 <br />
 
